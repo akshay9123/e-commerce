@@ -1,0 +1,36 @@
+.parent-cartlist{
+  width: 1000px;
+  height: 270px;
+  display: flex;
+  align-items: center;
+  border: 2px solid red;
+}
+.parent-cartlist .image-sec {
+    width: 30%;
+}
+.parent-cartlist .image-sec img{
+    width: 90%;
+}
+.parent-cartlist .about{
+    width: 70%;
+    margin-left: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.parent-cartlist .about .price{
+    font-size: 1.4rem;
+    margin-right: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.parent-cartlist .about .title{
+    font-size: 1.4rem;
+}
+.rupee{
+    font-size: 1.2rem;
+    color: red;
+}

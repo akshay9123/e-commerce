@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .image img {
+  width: 350px;
+  height: 350px;
+}
+.container .about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.container .about h1{
+    font-size: 3rem;
+}
+.container .about p{
+    font-size: 1.8rem;
+}
+.container .about .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.container .about .btn .price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .about .btn button {
+  height: 50px;
+  width: 105px;
+  text-align: center;
+}
+.container .about .btn button:hover {
+  cursor: pointer;
+}
+.container .about .btn .price {
+  background-color: red;
+  color: white;
+  font-size: large;
+}
+.container .about .btn .add-to-cart {
+  background-color: rgb(163, 184, 79);
+  font-weight: bold;
+}
+.suggestion{
+  margin-top: 40px;
+  
+}
+.suggestion h1{
+  align-items: center;
+  text-align: center;
+  color: maroon;
+  font-size: 3rem;
+}
+.suggestion .suggestion-product{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  gap: 150px;
+  align-items: center;
+  padding-bottom: 80px;
+}

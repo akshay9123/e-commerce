@@ -1,0 +1,66 @@
+.card {
+  width: 250px;
+  height: 350px;
+  border: 2px solid black;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.card .image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card .image img {
+  width: 80%;
+  height: 60%px;
+  object-fit: cover;
+  
+}
+.card .about{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.card .about .btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.card .about .btn .price{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card .about .btn button{
+  height: 40px;
+  width: 85px;
+  text-align: center;
+}
+.card .about .btn button:hover{
+  cursor: pointer;
+}
+.card .about .btn .price{
+  background-color: red;
+  border-radius: 10px;
+  color: white;
+  font-size: large;
+}
+.card .about .btn .add-to-cart{
+  background-color: rgb(163, 184, 79);
+  font-weight: bold ;
+}
+.price1{
+  font-size: 15px;
+  text-decoration: line-through;
+  border-radius: 10px;
+}
+.price2{
+  font-size: 14px;
+}
+.price-logo{
+  font-size: 13px;
+}
